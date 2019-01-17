@@ -25,7 +25,7 @@
 4.	入力ファイル及び出力ファイルのフォーマットはSTL（Stereo Lithography）のASCIIフォーマット、バイナリーフォーマットとする
 5.	中心面抽出は外部プログラム：Powercrust Software ( http://web.cs.ucdavis.edu/~amenta/powercrust.html )を用いる（同包）
 6.	3次元形状モデルの合成は外部プログラム：Cork Boolean Library (https://github.com/gilbo/cork )を用いる（同包）
-7.	厚み形状生成、及びその他補助的な形状データ操作はMeshlab ( http://meshlab.sourceforge.net/ )のスクリプト実行機能を用いる（同包のver.1.3.3で動作確認、2016/12リリース版では動作しない模様）
+7.	厚み形状生成、及びその他補助的な形状データ操作はMeshLab ( http://meshlab.sourceforge.net/ )のスクリプト実行機能を用いる（ver.1.3.3で動作確認、2016/12リリース版では動作しない模様）
 
 ・システム要件：
 
@@ -43,7 +43,7 @@ Memory: 4GB以上推奨
 
 1.	インストール・アンインストール
 
-medial-surface.dmgをダブルクリックしてマウントする
+(1) medial-surface.dmgをダブルクリックしてマウントする
 
 マウントされたイメージ内にある「medial-surface.app」をアプリケーションフォルダに、「powercrust」及び「cork」を適当なディレクトリにコピーする
 
@@ -62,6 +62,8 @@ macOSの場合はHomebrew (http://brew.sh/index_ja.html ) でのインストー�
 brew install gmp
 
 アンインストールを行う場合は上記3ファイルを削除する
+
+(2) MeshLab 1.3.3 をインストールする
 
 
 2.	起動
