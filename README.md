@@ -73,6 +73,6 @@ brew install gmp
 
 3.	設定・使い方
 
-添付の medial-surface-app.pdf を参照
+添付の medial-surface-app_20190117.pdf を参照下さい
 
 以上
