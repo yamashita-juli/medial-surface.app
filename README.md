@@ -2,7 +2,8 @@
 
 ## I. 名称：　medial-surface.app
 
-## II. 内容：　入力された STL file の medial surface （中立面）に、指定の厚みをつけた STL file を作成する。
+## II. 内容　
+ 入力された STL file の medial surface （中立面）に、指定の厚みをつけた STL file を作成する。
 
 ## III. 中立面 medial surface とは
 
