@@ -12,9 +12,7 @@
 図III-1 中立面（Medial Axis / Medial Surface）の例　
 
 ![上図](http://homepages.inf.ed.ac.uk/rbf/HIPR2/figs/bitanmed.gif)
-
 ![中図](https://github.com/yamashita-juli/medial-surface.app/blob/master/medial-surface-sampleSTL.jpeg )
-
 ![下図](https://github.com/yamashita-juli/medial-surface.app/blob/master/medial-surface-of-sampleSTL.jpg )
 
 [上図] 2次元形状（長方形）のmedial axis の例（出典： http://homepages.inf.ed.ac.uk/rbf/HIPR2/skeleton.htm ）
