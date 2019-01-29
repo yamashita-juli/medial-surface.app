@@ -12,11 +12,11 @@
 図III-1 中立面（Medial Axis / Medial Surface）の例　
 
 ![上図](http://homepages.inf.ed.ac.uk/rbf/HIPR2/figs/bitanmed.gif)
-![下図](http://www.riken.jp/brict/Yoshizawa/Research/Images/hand-half.jpg)
+![下図](https://github.com/yamashita-juli/medial-surface.app/edit/master/medial-surface-sampleSTL.jpeg)
 
 [上] 2次元形状（長方形）のmedial axis の例（出典： http://homepages.inf.ed.ac.uk/rbf/HIPR2/skeleton.htm ）
 
-[下] より複雑な3次元形状の medial surface の例（出典： http://www.riken.jp/brict/Yoshizawa/Research/Skeleton.html ）
+[下] より複雑な3次元形状とその medial surface の例（ 本ソフトウェアの STL ファイル ）
 
 ## IV. システム概要
 1.	入力された3次元形状モデルSTL fileの中立面（medial surface）を抽出する
