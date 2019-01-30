@@ -70,7 +70,9 @@ brew install gmp
 
 https://github.com/cnr-isti-vclab/meshlab/issues/64 を参考に、下記を実行する　
 
-/Applications/meshlab.app/Contents/MacOS: $ install_name_tool -add_rpath "@executable_path/../Frameworks" meshlabserver
+cd /Applications/meshlab.app/Contents/MacOS
+
+install_name_tool -add_rpath "@executable_path/../Frameworks" meshlabserver
 
 
 
