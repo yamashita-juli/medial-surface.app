@@ -64,7 +64,14 @@ brew install gmp
 
 アンインストールを行う場合は上記3ファイルを削除する
 
-(2) MeshLab 1.3.3 をインストールする
+(2) MeshLab をインストールする
+
+20190130時点では、2016.10版が最新であるが、そのままでは meshlabserver が使えないので、
+
+https://github.com/cnr-isti-vclab/meshlab/issues/64 を参考に、下記を実行する　
+
+/Applications/meshlab.app/Contents/MacOS: $ install_name_tool -add_rpath "@executable_path/../Frameworks" meshlabserver
+
 
 
 2.	起動
