@@ -12,12 +12,13 @@
 図III-1 中立面（Medial Axis / Medial Surface）の例　
 
 ![上図](http://homepages.inf.ed.ac.uk/rbf/HIPR2/figs/bitanmed.gif)
-![中図](https://github.com/yamashita-juli/medial-surface.app/blob/master/medial-surface-sampleSTL.jpeg )
-![下図](https://github.com/yamashita-juli/medial-surface.app/blob/master/medial-surface-of-sampleSTL.jpg )
+
+![下左図](https://github.com/yamashita-juli/medial-surface.app/blob/master/box-min.png )
+![下右図](https://github.com/yamashita-juli/medial-surface.app/blob/master/box-min-med-surf.png )
 
 [上図] 2次元形状（長方形）のmedial axis の例（出典： http://homepages.inf.ed.ac.uk/rbf/HIPR2/skeleton.htm ）
 
-[中・下図] 本レポジトリ内のサンプル STL ファイルと、本ソフトで作成した中立面形状の例
+[下図] 本レポジトリ内のサンプル STL ファイルと、本ソフトで作成した中立面形状の例
 
 ## IV. システム概要
 1.	入力された3次元形状モデルSTL fileの中立面（medial surface）を抽出する
@@ -64,16 +65,7 @@ brew install gmp
 
 アンインストールを行う場合は上記3ファイルを削除する
 
-(2) MeshLab をインストールする
-
-20190130時点では、2016.10版が最新であるが、そのままでは meshlabserver が使えないので、
-
-https://github.com/cnr-isti-vclab/meshlab/issues/64 を参考に、下記を実行する　
-
-cd /Applications/meshlab.app/Contents/MacOS
-
-install_name_tool -add_rpath "@executable_path/../Frameworks" meshlabserver
-
+(2) MeshLab 1.3.3 をインストールする
 
 
 2.	起動
