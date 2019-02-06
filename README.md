@@ -49,7 +49,7 @@ Memory: 4GB以上推奨
 
 マウントされたイメージ内にある「medial-surface.app」をアプリケーションフォルダに、「powercrust」及び「cork」を適当なディレクトリにコピーする
 
-corkの実行にはGMP (https://gmplib.org/ ) が必要となる
+(2) corkの実行にはGMP (https://gmplib.org/ ) が必要となる
 
 macOSの場合はHomebrew (http://brew.sh/index_ja.html ) でのインストールが容易である
 
@@ -65,7 +65,7 @@ brew install gmp
 
 アンインストールを行う場合は上記3ファイルを削除する
 
-(2) MeshLab 1.3.3 をインストールする
+(3) MeshLab 1.3.3 をインストールする
 
 
 2.	起動
